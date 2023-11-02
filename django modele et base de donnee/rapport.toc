@@ -1,0 +1,5 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Mise en route}{3}{}%
+\contentsline {section}{\numberline {2}Configuration de la base de données}{3}{}%
+\contentsline {section}{\numberline {3}Création des modèles}{4}{}%
+\contentsline {section}{\numberline {4}Activation des modèles}{5}{}%
