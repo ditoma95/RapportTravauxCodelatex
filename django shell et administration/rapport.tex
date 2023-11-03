@@ -100,7 +100,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 \item[•] Cette erreur est du a la violation de la contrainte unique.\\
 
 \item[c)] Suppression du niveau sauvegardé dans la base de donnée : \\
-\item[•]On doit selectionner DImdjflkl'objet d'abord et en suite le supprimer.\\
+\item[•]On doit selectionner l'objet d'abord et en suite le supprimer.\\
 \begin{verbatim}
 >>> niveau = Niveau.objects.get(pk=1)
 >>> niveau.delete()
@@ -140,13 +140,14 @@ Eleve object (90153598)
 >>> 
 \end{verbatim}
 \item[•] Ce qui s'affiche c'est la classe Élevé, sont type et sa clé primaire.
-Voilà donc comment voire sa .
 
 \item[•] Oui se serait mieux. Donc pour le faire, je crée la méthode spécial \_\_str\_\_ dans mon modèle qui retourne le nom et le prénom comme suit: \\
 
 \begin{verbatim}
+
 def __str__(self):
         return self.nom + " " + self.prenom
+        
 \end{verbatim}
 
 \item[•] Code
