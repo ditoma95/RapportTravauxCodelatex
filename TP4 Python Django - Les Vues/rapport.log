@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.19)  6 NOV 2023 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.19)  7 NOV 2023 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1220,12 +1220,8 @@ File: 3.png Graphic file (type png)
 <use 3.png>
 Package pdftex.def Info: 3.png  used on input line 76.
 (pdftex.def)             Requested size: 385.97214pt x 217.72787pt.
- [4 <./2.png> <./3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-<4.png, id=88, 1636.1125pt x 788.9475pt>
+ [4 <./2.png>]
+<4.png, id=87, 1636.1125pt x 788.9475pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
 Package pdftex.def Info: 4.png  used on input line 88.
@@ -1235,18 +1231,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-<5.png, id=89, 1822.81pt x 636.3775pt>
+<5.png, id=88, 1822.81pt x 636.3775pt>
 File: 5.png Graphic file (type png)
 <use 5.png>
 Package pdftex.def Info: 5.png  used on input line 93.
 (pdftex.def)             Requested size: 382.8014pt x 133.64322pt.
-
+[5 <./3.png> <./4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-[5 <./4.png> <./5.png>]
-<6.png, id=103, 382.42876pt x 192.72pt>
+<6.png, id=99, 382.42876pt x 192.72pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
 Package pdftex.def Info: 6.png  used on input line 103.
@@ -1261,30 +1256,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-<9.png, id=104, 1670.24pt x 1628.0825pt>
+<9.png, id=100, 1670.24pt x 1628.0825pt>
 File: 9.png Graphic file (type png)
 <use 9.png>
 Package pdftex.def Info: 9.png  used on input line 107.
 (pdftex.def)             Requested size: 334.04208pt x 325.61073pt.
-[6 <./6.png> <./9.png>]
+[6 <./5.png> <./6.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<tab.png, id=113, 920.43875pt x 834.11626pt>
+<tab.png, id=111, 920.43875pt x 834.11626pt>
 File: tab.png Graphic file (type png)
 <use tab.png>
 Package pdftex.def Info: tab.png  used on input line 117.
 (pdftex.def)             Requested size: 368.16898pt x 333.6406pt.
-[7 <./tab.png>] (./rapport.aux)
+[7 <./9.png>]
+<10.png, id=120, 1449.415pt x 865.2325pt>
+File: 10.png Graphic file (type png)
+<use 10.png>
+Package pdftex.def Info: 10.png  used on input line 130.
+(pdftex.def)             Requested size: 434.82785pt x 259.57175pt.
+
+Overfull \hbox (46.57417pt too wide) in paragraph at lines 130--131
+ [] 
+ []
+
+[8 <./tab.png>] [9 <./10.png>] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 00831C12513D0D52B69CAC83F91DA883;785.
  ) 
 Here is how much of TeX's memory you used:
- 28064 strings out of 480177
- 545330 string characters out of 5893866
+ 28075 strings out of 480177
+ 545429 string characters out of 5893866
  835467 words of memory out of 5000000
- 45542 multiletter control sequences out of 15000+600000
+ 45548 multiletter control sequences out of 15000+600000
  505175 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  86i,7n,94p,444b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1293,10 +1299,10 @@ sr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/tex
 mf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/kpfonts/jkpmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/kpfonts/jkpmne.pfb>
-Output written on rapport.pdf (7 pages, 886210 bytes).
+Output written on rapport.pdf (9 pages, 995099 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
